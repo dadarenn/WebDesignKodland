@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A3DC9A;
+    padding: 20px 30px;
+    color: #FFF4F4;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+nav a{
+    margin-right: 30px;
+    color: #FFF4F4;
+    text-decoration: none;
+}
+
+.HomePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEE791;
+}
+
+.HomePage{
+ height: 100vh;
+ background-color: #DEE791;
+}
+
+#content{
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    line-height: 25px;
+    background-color: #7ADAA5;
+    padding-top: 100px;
+    padding-left: 20px;
+    display: flex;
+}
+
+#content p{
+    width: 40%;
+    line-height: 30px;
+}
+
+#content h1{
+    margin-bottom: 30px;
+    font-weight: 550;
+}
+
+.Page1{
+    display: flex;
+    flex-direction: column;
+}
+
+Button{
+    border-radius: 10px;
+    border: 2px solid#8ABB6C;
+    background-color: #FFF9BD;
+    color: black;
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.AboutTitle{
+    background-color: #DEE791;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.AboutTitle h1{
+    font-family: "Montagu Slab", serif;
+}
+.container-about{
+    background-color: #DEE791;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.container-about p{
+    width: 50%;
+    line-height: 25px;
+}
+
+.container-about img{
+    width: 350px;
+    height: 200px;
+}
+
+.container-contact{
+    background-color: #DEE791;
+    display: flex;
+    font-size: 20px;
+    padding: 20px 10px;
+}
+.bg-contact{
+    height: 100vh;
+    background-color: #DEE791;
+}
+
+.container-contact img{
+    width: 50px;
+    height: 50px;
+}
+
+.container-contact p{
+    width: 30%;
+    line-height: 45px;
+}
+
+.container-content{
+    background-color: #7ADAA5;
+    font-size: 20px;
+
+}
