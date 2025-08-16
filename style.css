@@ -110,6 +110,7 @@ Button{
 .bg-contact{
     height: 100vh;
     background-color: #DEE791;
+    padding-top: 70px;
 }
 
 .container-contact img{
@@ -125,5 +126,6 @@ Button{
 .container-content{
     background-color: #7ADAA5;
     font-size: 20px;
+
 
 }
